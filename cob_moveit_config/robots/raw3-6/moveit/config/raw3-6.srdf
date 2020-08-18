@@ -96,7 +96,7 @@
     <passive_joint name="arm_base_link-base_fixed_joint" />
     <passive_joint name="arm_ee_fixed_joint" />
     <passive_joint name="arm_wrist_3_link-tool0_fixed_joint" />
-
+    
     <passive_joint name="wrist_camera_mount_joint" />
     <passive_joint name="wrist_camera_joint" />
     <passive_joint name="wrist_camera_depth_frame_joint" />
@@ -237,7 +237,6 @@
     <disable_collisions link1="arm_base_link" link2="fr_caster_r_wheel_link" />
     <disable_collisions link1="arm_base_link" link2="fr_caster_rotation_link" />
     <disable_collisions link1="arm_base_link" link2="tower_base_link" />
-
     <disable_collisions link1="arm_base" link2="base_footprint" />
     <disable_collisions link1="arm_base" link2="base_link" />
     <disable_collisions link1="arm_base" link2="base_battery_front_battery" />
@@ -253,7 +252,6 @@
     <disable_collisions link1="arm_base" link2="fr_caster_r_wheel_link" />
     <disable_collisions link1="arm_base" link2="fr_caster_rotation_link" />
     <disable_collisions link1="arm_base" link2="tower_base_link" />
-
     <disable_collisions link1="arm_shoulder_link" link2="base_footprint" />
     <disable_collisions link1="arm_shoulder_link" link2="base_link" />
     <disable_collisions link1="arm_shoulder_link" link2="base_battery_front_battery" />
@@ -289,51 +287,6 @@
     <disable_collisions link1="arm_wrist_2_link" link2="arm_wrist_3_link" reason="Adjacent" />
 
     <!--4. arm to gripper and camera-->
-    <disable_collisions link1="arm_base_link" link2="base_footprint" />
-    <disable_collisions link1="arm_base_link" link2="base_link" />
-    <disable_collisions link1="arm_base_link" link2="base_battery_front_battery" />
-    <disable_collisions link1="arm_base_link" link2="base_battery_rear_battery" />
-    <disable_collisions link1="arm_base_link" link2="base_laser_front_link" />
-    <disable_collisions link1="arm_base_link" link2="base_laser_rear_link" />
-    <disable_collisions link1="arm_base_link" link2="bl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base_link" link2="bl_caster_rotation_link" />
-    <disable_collisions link1="arm_base_link" link2="br_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base_link" link2="br_caster_rotation_link" />
-    <disable_collisions link1="arm_base_link" link2="fl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base_link" link2="fl_caster_rotation_link" />
-    <disable_collisions link1="arm_base_link" link2="fr_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base_link" link2="fr_caster_rotation_link" />
-    <disable_collisions link1="arm_base_link" link2="tower_base_link" />
-    <disable_collisions link1="arm_base" link2="base_footprint" />
-    <disable_collisions link1="arm_base" link2="base_link" />
-    <disable_collisions link1="arm_base" link2="base_battery_front_battery" />
-    <disable_collisions link1="arm_base" link2="base_battery_rear_battery" />
-    <disable_collisions link1="arm_base" link2="base_laser_front_link" />
-    <disable_collisions link1="arm_base" link2="base_laser_rear_link" />
-    <disable_collisions link1="arm_base" link2="bl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base" link2="bl_caster_rotation_link" />
-    <disable_collisions link1="arm_base" link2="br_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base" link2="br_caster_rotation_link" />
-    <disable_collisions link1="arm_base" link2="fl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base" link2="fl_caster_rotation_link" />
-    <disable_collisions link1="arm_base" link2="fr_caster_r_wheel_link" />
-    <disable_collisions link1="arm_base" link2="fr_caster_rotation_link" />
-    <disable_collisions link1="arm_base" link2="tower_base_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_footprint" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_battery_front_battery" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_battery_rear_battery" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_laser_front_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="base_laser_rear_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="bl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="bl_caster_rotation_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="br_caster_r_wheel_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="br_caster_rotation_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="fl_caster_r_wheel_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="fl_caster_rotation_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="fr_caster_r_wheel_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="fr_caster_rotation_link" />
-    <disable_collisions link1="arm_shoulder_link" link2="tower_base_link" />
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_finger_1_link_0" />
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_finger_1_link_1" />
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_finger_1_link_2" />
@@ -374,6 +327,7 @@
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="arm_wrist_1_link" link2="gripper_palm" />
+    <disable_collisions link1="arm_wrist_1_link" link2="gripper_FT_sensor" />
     <disable_collisions link1="arm_wrist_1_link" link2="wrist_camera_mount_link" />
     <disable_collisions link1="arm_wrist_1_link" link2="wrist_camera_link" />
     <disable_collisions link1="arm_wrist_1_link" link2="wrist_camera_depth_frame" />
@@ -422,6 +376,7 @@
     <disable_collisions link1="arm_wrist_2_link" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="arm_wrist_2_link" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="arm_wrist_2_link" link2="gripper_palm" />
+    <disable_collisions link1="arm_wrist_2_link" link2="gripper_FT_sensor" />
     <disable_collisions link1="arm_wrist_2_link" link2="wrist_camera_mount_link" />
     <disable_collisions link1="arm_wrist_2_link" link2="wrist_camera_link" />
     <disable_collisions link1="arm_wrist_2_link" link2="wrist_camera_depth_frame" />
@@ -470,6 +425,7 @@
     <disable_collisions link1="arm_wrist_3_link" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="arm_wrist_3_link" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="arm_wrist_3_link" link2="gripper_palm" />
+    <disable_collisions link1="arm_wrist_3_link" link2="gripper_FT_sensor" />
     <disable_collisions link1="arm_wrist_3_link" link2="wrist_camera_mount_link" />
     <disable_collisions link1="arm_wrist_3_link" link2="wrist_camera_link" />
     <disable_collisions link1="arm_wrist_3_link" link2="wrist_camera_depth_frame" />
@@ -518,6 +474,7 @@
     <disable_collisions link1="arm_ee_link" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="arm_ee_link" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="arm_ee_link" link2="gripper_palm" />
+    <disable_collisions link1="arm_ee_link" link2="gripper_FT_sensor" />
     <disable_collisions link1="arm_ee_link" link2="wrist_camera_mount_link" />
     <disable_collisions link1="arm_ee_link" link2="wrist_camera_link" />
     <disable_collisions link1="arm_ee_link" link2="wrist_camera_depth_frame" />
@@ -566,6 +523,7 @@
     <disable_collisions link1="arm_tool0" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="arm_tool0" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="arm_tool0" link2="gripper_palm" />
+    <disable_collisions link1="arm_tool0" link2="gripper_FT_sensor" />
     <disable_collisions link1="arm_tool0" link2="wrist_camera_mount_link" />
     <disable_collisions link1="arm_tool0" link2="wrist_camera_link" />
     <disable_collisions link1="arm_tool0" link2="wrist_camera_depth_frame" />
@@ -577,7 +535,7 @@
 
 
     <!--5. gripper and camera to gripper and camera-->
-        <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_1_link_1" />
+    <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_1_link_1" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_1_link_2" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_1_link_3" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_1_link_median_actuating_hinge" />
@@ -616,6 +574,7 @@
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_0" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_0" link2="wrist_camera_depth_frame" />
@@ -662,6 +621,7 @@
     <disable_collisions link1="gripper_finger_1_link_1" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_1" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_1" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_1" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_1" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_1" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_1" link2="wrist_camera_depth_frame" />
@@ -707,6 +667,7 @@
     <disable_collisions link1="gripper_finger_1_link_2" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_2" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_2" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_2" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_2" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_2" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_2" link2="wrist_camera_depth_frame" />
@@ -751,6 +712,7 @@
     <disable_collisions link1="gripper_finger_1_link_3" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_3" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_3" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_3" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_3" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_3" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_3" link2="wrist_camera_depth_frame" />
@@ -794,6 +756,7 @@
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_median_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -836,6 +799,7 @@
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_median_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_median_bar" link2="wrist_camera_depth_frame" />
@@ -877,6 +841,7 @@
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_median_bar_underactuated" link2="wrist_camera_depth_frame" />
@@ -917,6 +882,7 @@
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_paradistal_hinge" link2="wrist_camera_depth_frame" />
@@ -956,6 +922,7 @@
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_paramedian_hinge" link2="wrist_camera_depth_frame" />
@@ -994,6 +961,7 @@
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1031,6 +999,7 @@
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_paraproximal_bar" link2="wrist_camera_depth_frame" />
@@ -1067,6 +1036,7 @@
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_bar" link2="wrist_camera_depth_frame" />
@@ -1102,6 +1072,7 @@
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_1_link_proximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1136,6 +1107,7 @@
     <disable_collisions link1="gripper_finger_2_link_0" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_0" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_0" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_0" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_0" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_0" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_0" link2="wrist_camera_depth_frame" />
@@ -1169,6 +1141,7 @@
     <disable_collisions link1="gripper_finger_2_link_1" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_1" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_1" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_1" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_1" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_1" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_1" link2="wrist_camera_depth_frame" />
@@ -1201,6 +1174,7 @@
     <disable_collisions link1="gripper_finger_2_link_2" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_2" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_2" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_2" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_2" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_2" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_2" link2="wrist_camera_depth_frame" />
@@ -1232,6 +1206,7 @@
     <disable_collisions link1="gripper_finger_2_link_3" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_3" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_3" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_3" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_3" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_3" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_3" link2="wrist_camera_depth_frame" />
@@ -1262,6 +1237,7 @@
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_median_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1291,6 +1267,7 @@
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_median_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_median_bar" link2="wrist_camera_depth_frame" />
@@ -1319,6 +1296,7 @@
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_median_bar_underactuated" link2="wrist_camera_depth_frame" />
@@ -1346,6 +1324,7 @@
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_paradistal_hinge" link2="wrist_camera_depth_frame" />
@@ -1372,6 +1351,7 @@
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_paramedian_hinge" link2="wrist_camera_depth_frame" />
@@ -1397,6 +1377,7 @@
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1421,6 +1402,7 @@
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_paraproximal_bar" link2="wrist_camera_depth_frame" />
@@ -1444,6 +1426,7 @@
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_bar" link2="wrist_camera_depth_frame" />
@@ -1466,6 +1449,7 @@
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_2_link_proximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1487,6 +1471,7 @@
     <disable_collisions link1="gripper_finger_middle_link_0" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_0" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_0" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_0" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_0" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_0" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_0" link2="wrist_camera_depth_frame" />
@@ -1507,6 +1492,7 @@
     <disable_collisions link1="gripper_finger_middle_link_1" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_1" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_1" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_1" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_1" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_1" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_1" link2="wrist_camera_depth_frame" />
@@ -1526,6 +1512,7 @@
     <disable_collisions link1="gripper_finger_middle_link_2" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_2" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_2" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_2" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_2" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_2" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_2" link2="wrist_camera_depth_frame" />
@@ -1544,6 +1531,7 @@
     <disable_collisions link1="gripper_finger_middle_link_3" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_3" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_3" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_3" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_3" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_3" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_3" link2="wrist_camera_depth_frame" />
@@ -1561,6 +1549,7 @@
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1577,6 +1566,7 @@
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar" link2="wrist_camera_depth_frame" />
@@ -1592,6 +1582,7 @@
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_median_bar_underactuated" link2="wrist_camera_depth_frame" />
@@ -1606,6 +1597,7 @@
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_paradistal_hinge" link2="wrist_camera_depth_frame" />
@@ -1619,6 +1611,7 @@
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_paramedian_hinge" link2="wrist_camera_depth_frame" />
@@ -1631,6 +1624,7 @@
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1642,6 +1636,7 @@
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_bar" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="wrist_camera_depth_frame" />
@@ -1652,6 +1647,7 @@
     <disable_collisions link1="gripper_finger_middle_link_paraproximal_bar" link2="wrist_camera_rgb_optical_frame" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="gripper_finger_middle_link_proximal_actuating_hinge" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="wrist_camera_depth_frame" />
@@ -1661,6 +1657,7 @@
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="wrist_camera_rgb_frame" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_bar" link2="wrist_camera_rgb_optical_frame" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="gripper_palm" />
+    <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_depth_frame" />
@@ -1669,6 +1666,7 @@
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_ir_optical_frame" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_rgb_frame" />
     <disable_collisions link1="gripper_finger_middle_link_proximal_actuating_hinge" link2="wrist_camera_rgb_optical_frame" />
+    <disable_collisions link1="gripper_palm" link2="gripper_FT_sensor" />
     <disable_collisions link1="gripper_palm" link2="wrist_camera_mount_link" />
     <disable_collisions link1="gripper_palm" link2="wrist_camera_link" />
     <disable_collisions link1="gripper_palm" link2="wrist_camera_depth_frame" />
@@ -1677,6 +1675,14 @@
     <disable_collisions link1="gripper_palm" link2="wrist_camera_ir_optical_frame" />
     <disable_collisions link1="gripper_palm" link2="wrist_camera_rgb_frame" />
     <disable_collisions link1="gripper_palm" link2="wrist_camera_rgb_optical_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_mount_link" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_link" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_depth_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_depth_optical_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_ir_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_ir_optical_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_rgb_frame" />
+    <disable_collisions link1="gripper_FT_sensor" link2="wrist_camera_rgb_optical_frame" />
     <disable_collisions link1="wrist_camera_mount_link" link2="wrist_camera_link" />
     <disable_collisions link1="wrist_camera_mount_link" link2="wrist_camera_depth_frame" />
     <disable_collisions link1="wrist_camera_mount_link" link2="wrist_camera_depth_optical_frame" />
@@ -1705,5 +1711,7 @@
     <disable_collisions link1="wrist_camera_ir_optical_frame" link2="wrist_camera_rgb_frame" />
     <disable_collisions link1="wrist_camera_ir_optical_frame" link2="wrist_camera_rgb_optical_frame" />
     <disable_collisions link1="wrist_camera_rgb_frame" link2="wrist_camera_rgb_optical_frame" />
+
+
 
 </robot>
